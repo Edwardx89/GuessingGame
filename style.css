@@ -12,8 +12,13 @@
           height: 50px;
    
       }
+      body{
+          background-image: url('guessing_background.jpeg')
+          
+
+      }
       #footer {
-          width: 100%;
+          width: 90%;
           border-top: solid 2px black;
           background-color: white;
           position: fixed;
@@ -24,11 +29,16 @@
       }
       #title {
           text-align: center;
-          background-color: lightskyblue;
+          font-size: 65px;
+          color: black;
+          
       }
       #subtitle{
           text-align: center;
-          height: 20
+          height: 20;
+          color: black;
+          
+          
       }
       #resetButton{
           background-color: lightblue;
@@ -48,13 +58,16 @@
       }
       #input-parent{
           width: 220px;
-          height: 80px;
-          margin: 0 auto;
+          height: 70px;
+          margin: 5% auto 100px;
+          position: relative;
       }
+
       #menu-btns{
           width: 140px;
           margin-left: auto;
           margin-right: auto;
+          
       }
       .guess{
           border: 1.2px solid black;
@@ -63,5 +76,21 @@
           padding: 0 25px;
           border-radius: 15%;
           background-color: lavender;
-          text-align: center;
       }
+    
+        #app{text-align:center} 
+
+        #box{
+            border-radius: 70%;
+            width: 170px;
+            height: 120px;
+            font-size: 20px;
+        }
+        #buttonGo{
+            border-radius: 75%;
+            height: 50px;
+            width: 50px;
+            top: 75px;
+            left: 150px;
+            position: absolute;
+        }
